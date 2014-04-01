@@ -1,0 +1,3 @@
+<h1>Hello <%= current_user.email %> on Provider!</h1>
+
+<%= link_to 'Sign out from Provider', destroy_user_session_path, method: :delete %>
